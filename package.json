@@ -1,0 +1,20 @@
+{
+  "name": "theme-app-chooser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -wc"
+  },
+  "keywords": [],
+  "author": "Dmitriy Yurov <yurov.de@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@endorphinjs/rollup-plugin-endorphin": "^0.3.0",
+    "endorphin": "^0.5.2",
+    "rollup": "^1.17.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="./colors.css"/>
+<script src="./colors.js"/>
+
+<template>
+	<div class="circle-container">
+		<e:for-each select={#colorKeys}>
+			<div class="circle">
+				<input type="color" value={#schema.colors[@value]} name={@value}/>
+			</div>
+		</e:for-each>
+	</div>
+</template>
